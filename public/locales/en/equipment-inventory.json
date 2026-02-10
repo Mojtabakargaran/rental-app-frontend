@@ -1,0 +1,495 @@
+{
+  "viewEquipment": {
+    "pageTitle": "Equipment Details",
+    "appName": "Rental Management System",
+    "pageDescription": "View detailed information about equipment item"
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "Equipment Name",
+        "placeholder": "Enter equipment name"
+      },
+      "category": {
+        "label": "Equipment Category",
+        "placeholder": "Select category",
+        "loading": "Loading categories...",
+        "noCategories": "No categories available. Please create a category first."
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Enter equipment description (optional)"
+      },
+      "manufacturer": {
+        "label": "Manufacturer",
+        "placeholder": "Enter manufacturer (optional)"
+      },
+      "model": {
+        "label": "Model/Model Number",
+        "placeholder": "Enter model number (optional)"
+      },
+      "serialNumber": {
+        "label": "Serial Number",
+        "placeholder": "Enter serial number (optional)"
+      },
+      "yearOfManufacture": {
+        "label": "Year of Manufacture",
+        "placeholder": "Enter year (optional)"
+      },
+      "purchasePrice": {
+        "label": "Purchase Price",
+        "placeholder": "Enter price (optional)"
+      },
+      "purchaseDate": {
+        "label": "Purchase Date",
+        "placeholder": "Select date (optional)"
+      },
+      "status": {
+        "label": "Status",
+        "placeholder": "Select status",
+        "options": {
+          "Available": "Available",
+          "Rented": "Rented",
+          "Maintenance": "Maintenance",
+          "Out of Service": "Out of Service"
+        }
+      }
+    },
+    "customAttributes": {
+      "title": "Custom Attributes",
+      "addButton": "Add Attribute",
+      "keyPlaceholder": "Attribute name",
+      "valuePlaceholder": "Attribute value",
+      "unitPlaceholder": "Unit (optional)",
+      "remove": "Remove",
+      "empty": "No custom attributes added yet"
+    },
+    "buttons": {
+      "submit": "Add Equipment",
+      "cancel": "Cancel",
+      "submitting": "Adding...",
+      "update": "Update Equipment"
+    },
+    "charactersRemaining": "characters"
+  },
+  "cancelDialog": {
+    "title": "Discard Changes?",
+    "description": "You have unsaved changes. Are you sure you want to discard them?",
+    "back": "Keep Editing",
+    "confirm": "Discard Changes"
+  },
+  "createEquipment": {
+    "title": "Add Equipment to Inventory",
+    "subtitle": "Register a new equipment item for your rental business",
+    "form": {
+      "sections": {
+        "basic": {
+          "title": "Basic Information",
+          "description": "Essential details about the equipment"
+        },
+        "specifications": {
+          "title": "Specifications",
+          "description": "Technical and manufacturer details"
+        },
+        "financial": {
+          "title": "Financial Details",
+          "description": "Purchase information"
+        },
+        "status": {
+          "title": "Status",
+          "description": "Current equipment availability"
+        },
+        "custom": {
+          "title": "Custom Attributes",
+          "description": "Additional equipment-specific information"
+        }
+      },
+      "fields": {
+        "name": {
+          "label": "Equipment Name",
+          "placeholder": "Enter equipment name"
+        },
+        "category": {
+          "label": "Equipment Category",
+          "placeholder": "Select category",
+          "loading": "Loading categories...",
+          "noCategories": "No categories available. Please create a category first."
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Enter equipment description (optional)"
+        },
+        "manufacturer": {
+          "label": "Manufacturer",
+          "placeholder": "Enter manufacturer (optional)"
+        },
+        "model": {
+          "label": "Model/Model Number",
+          "placeholder": "Enter model number (optional)"
+        },
+        "serialNumber": {
+          "label": "Serial Number",
+          "placeholder": "Enter serial number (optional)"
+        },
+        "yearOfManufacture": {
+          "label": "Year of Manufacture",
+          "placeholder": "Enter year (optional)"
+        },
+        "purchasePrice": {
+          "label": "Purchase Price",
+          "placeholder": "Enter price (optional)"
+        },
+        "purchaseDate": {
+          "label": "Purchase Date",
+          "placeholder": "Select date (optional)"
+        },
+        "status": {
+          "label": "Status",
+          "options": {
+            "Available": "Available",
+            "Rented": "Rented",
+            "Maintenance": "Maintenance",
+            "Out of Service": "Out of Service"
+          }
+        },
+        "customAttributes": {
+          "addButton": "Add Attribute",
+          "keyPlaceholder": "Attribute name",
+          "valuePlaceholder": "Attribute value",
+          "unitPlaceholder": "Unit (optional)",
+          "remove": "Remove",
+          "empty": "No custom attributes added yet"
+        }
+      },
+      "buttons": {
+        "submit": "Add Equipment",
+        "cancel": "Cancel",
+        "submitting": "Adding...",
+        "update": "Update Equipment"
+      },
+      "helpers": {
+        "nameHelp": "Maximum 200 characters",
+        "descriptionHelp": "Maximum 2000 characters",
+        "manufacturerHelp": "Maximum 100 characters",
+        "modelHelp": "Maximum 100 characters",
+        "serialNumberHelp": "Must be unique within your company. Maximum 100 characters",
+        "yearHelp": "Must be between 1900 and current year",
+        "purchaseDateHelp": "Cannot be in the future"
+      }
+    },
+    "cancelDialog": {
+      "title": "Discard Changes?",
+      "description": "You have unsaved changes. Are you sure you want to discard them?",
+      "back": "Keep Editing",
+      "confirm": "Discard Changes"
+    },
+    "validation": {
+      "nameRequired": "Equipment name is required",
+      "nameLength": "Equipment name must be 1-200 characters",
+      "categoryRequired": "Equipment category is required",
+      "categoryInvalid": "Invalid category selected",
+      "descriptionLength": "Description must not exceed 2000 characters",
+      "manufacturerLength": "Manufacturer must not exceed 100 characters",
+      "modelLength": "Model must not exceed 100 characters",
+      "serialNumberLength": "Serial number must not exceed 100 characters",
+      "serialNumberExists": "This serial number is already assigned to another equipment item",
+      "yearInvalid": "Year must be between 1900 and current year",
+      "purchasePriceInvalid": "Purchase price must be a positive number",
+      "purchaseDateFuture": "Purchase date cannot be in the future",
+      "statusRequired": "Status is required",
+      "statusInvalid": "Invalid status value",
+      "customAttributeKeyRequired": "Attribute name is required",
+      "customAttributeKeyLength": "Attribute name must not exceed 100 characters",
+      "customAttributeValueRequired": "Attribute value is required",
+      "customAttributeValueLength": "Attribute value must not exceed 500 characters",
+      "customAttributeUnitLength": "Unit must not exceed 50 characters",
+      "categoryNotFound": "Selected category not found",
+      "categoryInactive": "The selected category is no longer active. Please select another category.",
+      "reasonTooLong": "Reason must not exceed 500 characters",
+      "archived": "This equipment has been archived and cannot be edited",
+      "alreadyArchived": "Equipment is already archived",
+      "invalidEquipmentId": "Invalid equipment ID",
+      "equipmentNotFound": "Equipment not found",
+      "databaseError": "A database error occurred. Please try again.",
+      "reasonMaxLength": "Reason must not exceed 500 characters",
+      "statusRequired": "Status is required",
+      "confirmationRequired": "Confirmation is required",
+      "confirmationInvalid": "The equipment name you entered does not match",
+      "customAttributeKeyRequired": "Attribute name is required",
+      "customAttributeKeyTooLong": "Attribute name must not exceed 100 characters",
+      "customAttributeValueRequired": "Attribute value is required",
+      "customAttributeValueTooLong": "Attribute value must not exceed 500 characters",
+      "customAttributeUnitTooLong": "Unit must not exceed 50 characters",
+      "nameRequired": "Equipment name is required",
+      "nameTooLong": "Equipment name must not exceed 200 characters",
+      "invalidCategoryId": "Invalid category selected",
+      "categoryRequired": "Equipment category is required",
+      "descriptionTooLong": "Description must not exceed 2000 characters",
+      "manufacturerTooLong": "Manufacturer must not exceed 100 characters",
+      "modelTooLong": "Model must not exceed 100 characters",
+      "serialNumberTooLong": "Serial number must not exceed 100 characters",
+      "yearInvalid": "Year must be between 1900 and current year",
+      "yearTooOld": "Year must be 1900 or later",
+      "yearInFuture": "Year cannot be in the future",
+      "priceInvalid": "Price must be a valid number",
+      "priceNegative": "Price must be a positive number",
+      "dateInvalid": "Date must be in valid format",
+      "dateInFuture": "Date cannot be in the future",
+      "statusRequired": "Status is required",
+      "statusInvalid": "Invalid status value",
+      "VALIDATION_ERROR": "Please check the form for errors",
+      "VALIDATION_FAILED": "Please check the form for errors",
+      "INVALID_EQUIPMENT_ID": "Invalid equipment ID",
+      "EQUIPMENT_NOT_FOUND": "Equipment not found",
+      "EQUIPMENT_ARCHIVED": "This equipment has been archived and cannot be edited",
+      "FORBIDDEN": "You don't have permission to edit this equipment",
+      "EQUIPMENT_ALREADY_ARCHIVED": "Equipment is already archived",
+      "DATABASE_ERROR": "A database error occurred. Please try again.",
+      "INTERNAL_SERVER_ERROR": "An internal server error occurred. Please try again.",
+      "SESSION_EXPIRED": "Your session has expired. Please log in again.",
+      "UNAUTHORIZED": "You are not authorized to perform this action",
+      "INSUFFICIENT_PERMISSIONS": "You don't have permission to perform this action",
+      "EQUIPMENT_CREATION_FAILED": "Failed to create equipment. Please try again.",
+      "SERIAL_NUMBER_EXISTS": "This serial number is already assigned to another equipment item",
+      "STATUS_INVALID": "Invalid status value selected",
+      "INVALID_PAGINATION": "Invalid pagination parameters",
+      "INVALID_SORT_FIELD": "Invalid sort field selected",
+      "INVALID_FILTER_VALUES": "Invalid filter values provided"
+    },
+    "success": {
+      "created": "Equipment added successfully",
+      "redirecting": "Redirecting..."
+    },
+    "errors": {
+      "loadCategoriesFailed": "Failed to load categories"
+    }
+  },
+  "list": {
+    "title": "Equipment Inventory",
+    "subtitle": "Browse and manage your rental equipment",
+    "addButton": "Add Equipment",
+    "search": {
+      "placeholder": "Search equipment..."
+    },
+    "filters": {
+      "status": {
+        "label": "Status",
+        "all": "All Statuses",
+        "Available": "Available",
+        "Rented": "Rented",
+        "Maintenance": "Maintenance",
+        "Out of Service": "Out of Service"
+      },
+      "category": {
+        "label": "Category",
+        "all": "All Categories",
+        "loading": "Loading..."
+      },
+      "manufacturer": {
+        "label": "Manufacturer",
+        "placeholder": "Filter by manufacturer"
+      },
+      "dateRange": {
+        "purchaseDate": "Purchase Date",
+        "createdDate": "Created Date",
+        "from": "From",
+        "to": "To"
+      },
+      "clearAll": "Clear filters",
+      "activeFilters": "Active filters"
+    },
+    "sort": {
+      "label": "Sort by",
+      "name": "Name",
+      "status": "Status",
+      "createdAt": "Date Added",
+      "purchaseDate": "Purchase Date",
+      "order": {
+        "asc": "Ascending",
+        "desc": "Descending"
+      }
+    },
+    "table": {
+      "columns": {
+        "name": "Equipment Name",
+        "category": "Category",
+        "serialNumber": "Serial Number",
+        "status": "Status",
+        "manufacturer": "Manufacturer",
+        "model": "Model",
+        "purchaseDate": "Purchase Date",
+        "createdAt": "Date Added",
+        "actions": "Actions"
+      },
+      "actions": {
+        "edit": "Edit",
+        "archive": "Archive",
+        "delete": "Delete"
+      },
+      "noSerialNumber": "N/A"
+    },
+    "pagination": {
+      "showing": "Showing {from} to {to} of {total} equipment items",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {page} of {total}",
+      "itemsPerPage": "Items per page"
+    },
+    "empty": {
+      "title": "No equipment found",
+      "description": "Get started by adding your first equipment item to your rental inventory.",
+      "createFirst": "Add First Equipment"
+    },
+    "noResults": {
+      "title": "No equipment matches your criteria",
+      "description": "Try different search terms or filters to find what you're looking for.",
+      "clearFilters": "Clear all filters"
+    },
+    "loading": "Loading equipment...",
+    "error": "Failed to load equipment"
+  },
+  "details": {
+    "title": "Equipment Details",
+    "backToList": "Back to Equipment List",
+    "sections": {
+      "basic": "Basic Information",
+      "specifications": "Specifications",
+      "financial": "Financial Details",
+      "status": "Status",
+      "customAttributes": "Custom Attributes",
+      "metadata": "Audit Information"
+    },
+    "fields": {
+      "name": "Equipment Name",
+      "category": "Category",
+      "description": "Description",
+      "manufacturer": "Manufacturer",
+      "model": "Model/Model Number",
+      "serialNumber": "Serial Number",
+      "yearOfManufacture": "Year of Manufacture",
+      "purchasePrice": "Purchase Price",
+      "purchaseDate": "Purchase Date",
+      "status": "Status",
+      "createdBy": "Created By",
+      "createdAt": "Created At",
+      "updatedBy": "Last Updated By",
+      "updatedAt": "Last Updated At",
+      "deletedAt": "Archived At"
+    },
+    "values": {
+      "notSpecified": "Not specified",
+      "noDescription": "No description provided",
+      "noCustomAttributes": "No custom attributes defined"
+    },
+    "customAttributesTable": {
+      "columns": {
+        "name": "Attribute Name",
+        "value": "Value",
+        "unit": "Unit"
+      },
+      "noUnit": "-"
+    },
+    "badges": {
+      "archived": "ARCHIVED",
+      "categoryInactive": "(Inactive)",
+      "categoryDeleted": "(Deleted)"
+    },
+    "actions": {
+      "actions": "Actions",
+      "edit": "Edit Equipment",
+      "delete": "Delete Equipment",
+      "backToList": "Back to List",
+      "changeStatus": "Change Status",
+      "archiveEquipment": "Archive Equipment",
+      "deleteEquipment": "Delete Equipment"
+    },
+    "backToDetails": "Back to Details",
+    "loading": "Loading equipment details...",
+    "errors": {
+      "notFound": "Equipment not found or you don't have access to view it",
+      "loadFailed": "Failed to load equipment details",
+      "invalidId": "Invalid equipment ID"
+    }
+  },
+  "edit": {
+    "title": "Edit Equipment Information",
+    "subtitle": "Update equipment details and specifications",
+    "basicInfo": "Basic Information",
+    "equipmentDetails": "Equipment Details",
+    "cancelDialog": {
+      "title": "Discard Changes?",
+      "message": "You have unsaved changes. Are you sure you want to discard them?",
+      "keepEditing": "Keep Editing",
+      "discardChanges": "Discard Changes"
+    }
+  },
+  "status": {
+    "available": "Available",
+    "rented": "Rented",
+    "maintenance": "Maintenance",
+    "outOfService": "Out of Service"
+  },
+  "statusUpdate": {
+    "title": "Change Equipment Status",
+    "currentStatus": "Current Status",
+    "newStatus": "New Status",
+    "reason": "Reason (Optional)",
+    "reasonPlaceholder": "Enter reason for status change...",
+    "reasonHelp": "Maximum 500 characters",
+    "confirmButton": "Update Status",
+    "cancelButton": "Cancel",
+    "success": "Equipment status updated to {{status}}",
+    "unchanged": "Equipment status is already set to {{status}}"
+  },
+  "archive": {
+    "soft": {
+      "title": "Archive Equipment?",
+      "description": "Are you sure you want to archive this equipment item?",
+      "warning": "This will remove the equipment from active operations while preserving data for audit purposes.",
+      "equipmentLabel": "Equipment Name",
+      "reason": "Reason (Optional)",
+      "reasonPlaceholder": "Enter reason for archiving...",
+      "confirmButton": "Archive Equipment",
+      "cancelButton": "Cancel",
+      "success": "Equipment archived successfully"
+    },
+    "permanent": {
+      "title": "Permanently Delete Equipment?",
+      "description": "Are you sure you want to permanently delete this equipment item?",
+      "warning": "This action cannot be undone. The equipment will be permanently removed from the system.",
+      "equipmentLabel": "Equipment Name",
+      "confirmation": "Type DELETE to confirm",
+      "confirmationPlaceholder": "Type DELETE here",
+      "confirmButton": "Delete Permanently",
+      "cancelButton": "Cancel",
+      "success": "Equipment deleted successfully"
+    },
+    "equipment": {
+      "delete": {
+        "title": "Permanently Delete Equipment?",
+        "description": "Are you sure you want to permanently delete this equipment item?",
+        "warning": "This action cannot be undone. The equipment will be permanently removed from the system.",
+        "confirmButton": "Delete Permanently",
+        "cancelButton": "Cancel",
+        "success": "Equipment deleted successfully"
+      },
+      "softDelete": {
+        "title": "Archive Equipment?",
+        "description": "Are you sure you want to archive this equipment item?",
+        "warning": "This will remove the equipment from active operations while preserving data for audit purposes.",
+        "reasonLabel": "Reason (Optional)",
+        "reasonPlaceholder": "Enter reason for archiving...",
+        "confirmButton": "Archive Equipment",
+        "cancelButton": "Cancel",
+        "success": "Equipment archived successfully"
+      },
+      "restore": {
+        "title": "Restore Equipment?",
+        "description": "Are you sure you want to restore this equipment item?",
+        "confirmButton": "Restore Equipment",
+        "cancelButton": "Cancel",
+        "success": "Equipment restored successfully"
+      }
+    }
+  }
+}

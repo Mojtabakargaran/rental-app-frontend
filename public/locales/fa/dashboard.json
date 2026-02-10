@@ -1,0 +1,78 @@
+{
+  "page": {
+    "title": "داشبورد",
+    "description": "نمای کلی داشبورد شرکت"
+  },
+  "welcome": {
+    "greeting": "خوش آمدید، {name}",
+    "genericGreeting": "به داشبورد خوش آمدید",
+    "role": "مالک شرکت",
+    "lastLogin": "آخرین ورود: {date}"
+  },
+  "companyInfo": {
+    "title": "اطلاعات شرکت",
+    "fields": {
+      "companyName": "نام شرکت",
+      "ownerName": "نام مالک",
+      "email": "ایمیل",
+      "phone": "شماره تلفن",
+      "registrationDate": "تاریخ ثبت",
+      "noPhone": "ارائه نشده"
+    }
+  },
+  "quickActions": {
+    "title": "اقدامات سریع"
+  },
+  "metrics": {
+    "title": "آمار سریع",
+    "comingSoon": "به زودی",
+    "placeholders": {
+      "totalEquipment": "کل تجهیزات",
+      "totalUsers": "کل کاربران",
+      "availableEquipment": "تجهیزات موجود",
+      "totalCustomers": "کل مشتریان"
+    }
+  },
+  "navigation": {
+    "dashboard": "داشبورد",
+    "userManagement": "مدیریت کاربران",
+    "equipmentCategories": "دسته‌بندی تجهیزات",
+    "equipmentInventory": "موجودی تجهیزات",
+    "customers": "مشتریان",
+    "bookings": "رزروها",
+    "comingSoonTooltip": "به زودی در فاز {phase}"
+  },
+  "sidebar": {
+    "appName": "سیستم اجاره",
+    "toggleLabel": "تغییر وضعیت نوار کناری",
+    "collapseLabel": "بستن نوار کناری",
+    "expandLabel": "باز کردن نوار کناری"
+  },
+  "errors": {
+    "SESSION_EXPIRED": "نشست شما منقضی شده است. لطفاً دوباره وارد شوید.",
+    "UNAUTHORIZED": "شما مجاز به دسترسی به این صفحه نیستید.",
+    "ACCOUNT_INACTIVE": "حساب کاربری شما غیرفعال است. لطفاً با پشتیبانی تماس بگیرید.",
+    "COMPANY_INACTIVE": "حساب شرکت شما غیرفعال است. لطفاً با پشتیبانی تماس بگیرید.",
+    "USER_NOT_FOUND": "پروفایل کاربر یافت نشد. لطفاً با پشتیبانی تماس بگیرید.",
+    "COMPANY_NOT_FOUND": "اطلاعات شرکت یافت نشد. لطفاً با پشتیبانی تماس بگیرید.",
+    "CROSS_TENANT_ACCESS": "دسترسی رد شد: دسترسی نامعتبر به سازمان.",
+    "USER_DETAILS_RETRIEVAL_FAILED": "بارگذاری جزئیات کاربر با خطا مواجه شد. لطفاً دوباره تلاش کنید.",
+    "SERVICE_UNAVAILABLE": "سرویس در حال حاضر در دسترس نیست. لطفاً بعداً دوباره تلاش کنید.",
+    "DASHBOARD_LOAD_FAILED": "بارگذاری داشبورد با خطا مواجه شد. لطفاً دوباره تلاش کنید.",
+    "NETWORK_ERROR": "اتصال شبکه قطع شده است. لطفاً اتصال اینترنت خود را بررسی کنید.",
+    "UNKNOWN_ERROR": "خطای غیرمنتظره رخ داد. لطفاً دوباره تلاش کنید."
+  },
+  "dashboard": {
+    "loaded": "داشبورد با موفقیت بارگذاری شد"
+  },
+  "actions": {
+    "retry": "تلاش مجدد",
+    "logout": "خروج",
+    "refresh": "بازخوانی"
+  },
+  "loading": {
+    "dashboard": "در حال بارگذاری داشبورد...",
+    "company": "در حال بارگذاری اطلاعات شرکت...",
+    "connecting": "در حال اتصال..."
+  }
+}

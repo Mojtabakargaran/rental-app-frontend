@@ -1,0 +1,37 @@
+{
+  "roles": {
+    "COMPANY_OWNER": "Company Owner",
+    "MANAGER": "Manager",
+    "STAFF": "Staff",
+    "MAINTENANCE": "Maintenance",
+    "READ_ONLY": "Read-Only"
+  },
+  "roleDescriptions": {
+    "COMPANY_OWNER": "Owner of the company with full administrative access",
+    "MANAGER": "Manages operations, users, and has access to reports",
+    "STAFF": "Handles day-to-day operations including bookings and equipment",
+    "MAINTENANCE": "Responsible for equipment maintenance and repairs",
+    "READ_ONLY": "View-only access to all data without modification privileges"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "close": "Close",
+    "retry": "Retry",
+    "errors": {
+      "title": "Error",
+      "network": "Network error. Please check your connection and try again.",
+      "unknown": "An unexpected error occurred. Please try again.",
+      "timeout": "Request timed out. Please try again."
+    }
+  },
+  "error": {
+    "crossTenantAccess": "Access denied: This resource belongs to a different organization.",
+    "internalServerError": "An internal server error occurred. Please try again.",
+    "insufficientPermissions": "You do not have permission to perform this action.",
+    "invalidParameters": "Invalid parameters provided. Please check your input."
+  }
+}

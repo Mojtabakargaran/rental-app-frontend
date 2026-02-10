@@ -1,0 +1,78 @@
+{
+  "page": {
+    "title": "Dashboard",
+    "description": "Company Dashboard Overview"
+  },
+  "welcome": {
+    "greeting": "Welcome, {name}",
+    "genericGreeting": "Welcome to Dashboard",
+    "role": "Company Owner",
+    "lastLogin": "Last login: {date}"
+  },
+  "companyInfo": {
+    "title": "Company Information",
+    "fields": {
+      "companyName": "Company Name",
+      "ownerName": "Owner Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "registrationDate": "Registration Date",
+      "noPhone": "Not provided"
+    }
+  },
+  "quickActions": {
+    "title": "Quick Actions"
+  },
+  "metrics": {
+    "title": "Quick Stats",
+    "comingSoon": "Coming Soon",
+    "placeholders": {
+      "totalEquipment": "Total Equipment",
+      "totalUsers": "Total Users",
+      "availableEquipment": "Available Equipment",
+      "totalCustomers": "Total Customers"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "userManagement": "User Management",
+    "equipmentCategories": "Equipment Categories",
+    "equipmentInventory": "Equipment Inventory",
+    "customers": "Customers",
+    "bookings": "Bookings",
+    "comingSoonTooltip": "Coming soon in Phase {phase}"
+  },
+  "sidebar": {
+    "appName": "Rental System",
+    "toggleLabel": "Toggle sidebar",
+    "collapseLabel": "Collapse sidebar",
+    "expandLabel": "Expand sidebar"
+  },
+  "errors": {
+    "SESSION_EXPIRED": "Your session has expired. Please log in again.",
+    "UNAUTHORIZED": "You are not authorized to access this page.",
+    "ACCOUNT_INACTIVE": "Your account is inactive. Please contact support.",
+    "COMPANY_INACTIVE": "Your company account is inactive. Please contact support.",
+    "USER_NOT_FOUND": "User profile not found. Please contact support.",
+    "COMPANY_NOT_FOUND": "Company information not found. Please contact support.",
+    "CROSS_TENANT_ACCESS": "Access denied: Invalid tenant access.",
+    "USER_DETAILS_RETRIEVAL_FAILED": "Failed to load user details. Please try again.",
+    "SERVICE_UNAVAILABLE": "Service is currently unavailable. Please try again later.",
+    "DASHBOARD_LOAD_FAILED": "Failed to load dashboard. Please try again.",
+    "NETWORK_ERROR": "Network connection lost. Please check your internet connection.",
+    "UNKNOWN_ERROR": "An unexpected error occurred. Please try again."
+  },
+  "dashboard": {
+    "loaded": "Dashboard loaded successfully"
+  },
+  "actions": {
+    "retry": "Retry",
+    "logout": "Logout",
+    "refresh": "Refresh"
+  },
+  "loading": {
+    "dashboard": "Loading dashboard...",
+    "company": "Loading company information...",
+    "connecting": "Connecting..."
+  }
+}

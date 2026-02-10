@@ -1,0 +1,156 @@
+{
+  "title": "Create Your Account",
+  "subtitle": "Start managing your rental equipments today",
+  "form": {
+    "fields": {
+      "fullName": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name"
+      },
+      "companyName": {
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Create a strong password"
+      },
+      "passwordConfirmation": {
+        "label": "Confirm Password",
+        "placeholder": "Re-enter your password"
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "+1 234 567 8900 (optional)"
+      },
+      "languagePreference": {
+        "label": "Preferred Language",
+        "options": {
+          "en": "English",
+          "fa": "Persian (فارسی)"
+        }
+      }
+    },
+    "buttons": {
+      "submit": "Create Account",
+      "submitting": "Creating Account...",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign In"
+    },
+    "passwordStrength": {
+      "title": "Password Requirements",
+      "minLength": "At least 8 characters",
+      "uppercase": "One uppercase letter",
+      "lowercase": "One lowercase letter",
+      "number": "One number",
+      "specialChar": "One special character (@$!%*?&)",
+      "levels": {
+        "0": "Very Weak",
+        "1": "Weak",
+        "2": "Fair",
+        "3": "Good",
+        "4": "Strong",
+        "5": "Very Strong"
+      }
+    }
+  },
+  "validation": {
+    "fullNameMin": "Full name must be at least 2 characters",
+    "fullNameMax": "Full name must not exceed 100 characters",
+    "companyNameMin": "Company name must be at least 2 characters",
+    "companyNameMax": "Company name must not exceed 100 characters",
+    "emailRequired": "Email address is required",
+    "invalidEmail": "Please enter a valid email address",
+    "emailMax": "Email must not exceed 255 characters",
+    "passwordMin": "Password must be at least 8 characters",
+    "passwordStrength": "Password must contain uppercase, lowercase, number, and special character",
+    "passwordConfirmationRequired": "Please confirm your password",
+    "passwordMismatch": "Passwords do not match",
+    "invalidPhone": "Please enter a valid phone number",
+    "invalidLanguage": "Please select a valid language"
+  },
+  "errors": {
+    "EMAIL_ALREADY_EXISTS": "This email address is already registered. Please use a different email or sign in to your existing account.",
+    "INVALID_EMAIL_FORMAT": "Please enter a valid email address.",
+    "WEAK_PASSWORD": "Password must be at least 8 characters and include uppercase, lowercase, number, and special character.",
+    "PASSWORD_MISMATCH": "Password and confirmation do not match. Please re-enter.",
+    "REQUIRED_FIELD_MISSING": "This field is required.",
+    "INVALID_PHONE_FORMAT": "Please enter a valid phone number.",
+    "CSRF_TOKEN_INVALID": "Security token expired. Please refresh the page and try again.",
+    "RATE_LIMIT_EXCEEDED": "Too many registration attempts. Please try again later.",
+    "REGISTRATION_FAILED": "Registration could not be completed. Please try again.",
+    "RESEND_VERIFICATION_FAILED": "Could not resend verification email. Please try again.",
+    "VALIDATION_ERROR": "Please check your input and try again.",
+    "INVALID_TOKEN_FORMAT": "Invalid verification link. Please check your email and click the correct link.",
+    "TOKEN_NOT_FOUND": "This verification link is invalid or has already been used.",
+    "TOKEN_EXPIRED": "This verification link has expired. Verification links are valid for 24 hours.",
+    "VERIFICATION_FAILED": "Verification could not be completed. Please try clicking the link again.",
+    "SERVICE_UNAVAILABLE": "Service temporarily unavailable. Please try again in a few moments."
+  },
+  "success": {
+    "title": "Registration Successful!",
+    "message": "Please check your email to verify your account.",
+    "checkEmail": "We've sent a verification link to {email}",
+    "resendPrompt": "Didn't receive the email?",
+    "resendButton": "Resend Verification Email"
+  },
+  "resendVerification": {
+    "pageTitle": "Resend Verification Email",
+    "appName": "Rental Management System",
+    "pageDescription": "Resend your account verification email",
+    "title": "Resend Verification Email",
+    "subtitle": "Enter your email address to receive a new verification link",
+    "success": {
+      "title": "Verification Email Sent!",
+      "message": "Verification email sent! Please check your email inbox and spam folder.",
+      "alreadyActivated": "Your account is already activated. Please proceed to login."
+    },
+    "form": {
+      "fields": {
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Enter your registered email"
+        }
+      },
+      "buttons": {
+        "submit": "Resend Verification Email",
+        "submitting": "Sending...",
+        "backToRegister": "Back to Registration",
+        "goToLogin": "Go to Login →"
+      }
+    },
+    "info": {
+      "waitTime": "Please wait at least 10 minutes between resend requests for the same email address.",
+      "checkSpam": "Don't forget to check your spam or junk folder."
+    }
+  },
+  "verifyEmail": {
+    "title": "Verifying Your Email",
+    "verifying": "Verifying your email address...",
+    "success": {
+      "title": "Email Verified Successfully!",
+      "message": "Your email has been verified successfully! You can now log in to your account.",
+      "redirecting": "Redirecting to login page in 3 seconds...",
+      "loginButton": "Go to Login"
+    },
+    "alreadyActivated": {
+      "title": "Account Already Activated",
+      "message": "Your account is already activated. Please proceed to login.",
+      "loginButton": "Go to Login"
+    },
+    "error": {
+      "title": "Verification Failed",
+      "resendPrompt": "Need a new verification link?",
+      "resendButton": "Resend Verification Email"
+    }
+  },
+  "footer": {
+    "sampleApp": "This is a sample application created using the Innovative Development ",
+    "methodology": "Methodology",
+    "byAuthor": " by Mojtaba Kargaran."
+  }
+}

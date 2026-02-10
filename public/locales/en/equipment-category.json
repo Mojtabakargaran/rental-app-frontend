@@ -1,0 +1,194 @@
+{
+  "page": {
+    "title": "Create Equipment Category",
+    "subtitle": "Add a new category to organize your rental equipment"
+  },
+  "level": "Level",
+  "editCategory": {
+    "title": "Edit Equipment Category",
+    "description": "Update category information, parent relationship, or status"
+  },
+  "actions": {
+    "edit": "Edit category"
+  },
+  "list": {
+    "title": "Equipment Categories",
+    "subtitle": "Manage your rental equipment categories",
+    "createButton": "Create Category",
+    "search": {
+      "placeholder": "Search categories..."
+    },
+    "filters": {
+      "status": {
+        "label": "Status",
+        "all": "All",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "hierarchyLevel": {
+        "label": "Level",
+        "all": "All Levels",
+        "topLevel": "Top Level",
+        "subCategories": "Sub-categories"
+      },
+      "clearAll": "Clear filters"
+    },
+    "table": {
+      "columns": {
+        "name": "Name",
+        "description": "Description",
+        "parent": "Parent Category",
+        "status": "Status",
+        "children": "Children",
+        "created": "Created",
+        "actions": "Actions"
+      },
+      "noParent": "Top Level",
+      "childrenCount": "{count, plural, =0 {No children} one {# child} other {# children}}"
+    },
+    "pagination": {
+      "showing": "Showing {{from}} to {{to}} of {{total}} results",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {{page}} of {{total}}"
+    },
+    "empty": {
+      "title": "No equipment categories found",
+      "description": "Get started by creating your first equipment category to organize your rental inventory.",
+      "createFirst": "Create First Category"
+    },
+    "noResults": {
+      "title": "No categories match your search",
+      "description": "Try adjusting your search or filters to find what you're looking for."
+    },
+    "loading": "Loading categories...",
+    "error": "Failed to load categories"
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "Category Name",
+        "placeholder": "Enter category name"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Enter category description (optional)"
+      },
+      "parentCategory": {
+        "label": "Parent Category",
+        "placeholder": "Select parent category (optional)",
+        "none": "None (Top Level)",
+        "topLevel": "None (Top Level)"
+      },
+      "parentId": {
+        "label": "Parent Category",
+        "placeholder": "Select parent category (optional)",
+        "none": "None (Top Level)"
+      },
+      "status": {
+        "label": "Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      }
+    },
+    "buttons": {
+      "submit": "Create Category",
+      "cancel": "Cancel",
+      "submitting": "Creating...",
+      "save": "Save Changes",
+      "update": "Update Category"
+    },
+    "helpers": {
+      "nameHelp": "Letters, numbers, spaces, hyphens, and underscores allowed (2-100 characters)",
+      "descriptionHelp": "Maximum 500 characters",
+      "parentHelp": "Select a parent category to create a sub-category (max 3 levels)",
+      "statusHelp": "Inactive categories won't appear in dropdown selections"
+    },
+    "charactersRemaining": "characters"
+  },
+  "cancelDialog": {
+    "title": "Discard Changes?",
+    "description": "You have unsaved changes. Are you sure you want to discard them?",
+    "back": "Keep Editing",
+    "confirm": "Discard Changes"
+  },
+  "validation": {
+    "error": "Error",
+    "updateCategoryFailed": "Failed to update category",
+    "VALIDATION_ERROR": "Please check the form for errors",
+    "VALIDATION_FAILED": "Please check the form for errors",
+    "CATEGORY_NAME_EXISTS": "Category name already exists",
+    "INVALID_CATEGORY_NAME": "Category name contains invalid characters",
+    "CATEGORY_NAME_TOO_SHORT": "Category name must be at least 2 characters",
+    "CATEGORY_NAME_TOO_LONG": "Category name must not exceed 100 characters",
+    "DESCRIPTION_TOO_LONG": "Description must not exceed 500 characters",
+    "DEACTIVATION_REASON_TOO_LONG": "Deactivation reason must not exceed 500 characters",
+    "PARENT_CATEGORY_NOT_FOUND": "Selected parent category not found",
+    "PARENT_CATEGORY_INACTIVE": "Selected parent category is inactive",
+    "MAX_HIERARCHY_DEPTH_EXCEEDED": "Maximum hierarchy depth (3 levels) exceeded",
+    "HIERARCHY_DEPTH_EXCEEDED": "Maximum hierarchy depth (3 levels) would be exceeded",
+    "CIRCULAR_REFERENCE_DETECTED": "Invalid parent selection: circular reference detected",
+    "REQUIRED_FIELD_MISSING": "This field is required",
+    "INVALID_PARENT_CATEGORY": "Invalid parent category",
+    "CATEGORY_NOT_FOUND": "Category not found",
+    "CANNOT_DEACTIVATE_CATEGORY_WITH_EQUIPMENT": "Cannot deactivate category: active equipment items exist",
+    "CANNOT_DEACTIVATE_CATEGORY_WITH_ACTIVE_CHILDREN": "Cannot deactivate category: active sub-categories exist. Please deactivate child categories first.",
+    "CATEGORY_ALREADY_DEACTIVATED": "Category is already deactivated",
+    "CATEGORY_ALREADY_ACTIVE": "Category is already active",
+    "CANNOT_DELETE_CATEGORY_WITH_CHILDREN": "Cannot delete category: sub-categories exist. Please delete or reassign child categories first.",
+    "CANNOT_DELETE_CATEGORY_WITH_EQUIPMENT": "Cannot delete category: equipment items exist",
+    "CATEGORY_ALREADY_DELETED": "Category has already been deleted",
+    "CONCURRENT_MODIFICATION": "Category was modified by another user. Please reload and try again.",
+    "INSUFFICIENT_PERMISSIONS": "You don't have permission to edit categories",
+    "SESSION_EXPIRED": "Your session has expired. Please log in again.",
+    "UNAUTHORIZED": "You are not authorized to perform this action",
+    "INTERNAL_SERVER_ERROR": "An internal server error occurred. Please try again.",
+    "FORBIDDEN": "You don't have permission to edit this category",
+    "DATABASE_ERROR": "A database error occurred. Please try again."
+  },
+  "success": {
+    "categoryCreated": "Category created successfully",
+    "categoryUpdated": "Category updated successfully",
+    "redirecting": "Redirecting to categories list..."
+  },
+  "categoryArchive": {
+    "deactivate": {
+      "buttonLabel": "Deactivate",
+      "title": "Deactivate category {categoryName}?",
+      "description": "The category will be removed from active operations while preserving data for audit purposes.",
+      "reasonLabel": "Reason (Optional)",
+      "reasonPlaceholder": "Enter deactivation reason for audit purposes...",
+      "confirmButton": "Deactivate Category",
+      "success": "Category deactivated successfully"
+    },
+    "reactivate": {
+      "buttonLabel": "Reactivate",
+      "title": "Reactivate category {categoryName}?",
+      "description": "The category will be restored to active operations.",
+      "confirmButton": "Reactivate Category",
+      "success": "Category reactivated successfully"
+    },
+    "delete": {
+      "buttonLabel": "Delete",
+      "title": "Permanently delete category {categoryName}?",
+      "description": "This action cannot be undone. The category will be soft-deleted and preserved for audit purposes.",
+      "warning": "This action cannot be undone. The category will be soft-deleted and preserved for audit purposes.",
+      "confirmButton": "Delete Category",
+      "success": "Category deleted successfully"
+    }
+  },
+  "error": {
+    "internalServerError": "An internal server error occurred. Please try again."
+  },
+  "dialog": {
+    "cancel": {
+      "title": "Discard Changes?",
+      "description": "You have unsaved changes. Are you sure you want to discard them?",
+      "confirm": "Discard",
+      "back": "Keep Editing"
+    },
+    "unsavedChanges": "Discard Changes?",
+    "discardChangesConfirmation": "You have unsaved changes. Are you sure you want to discard them?",
+    "discardChanges": "Discard Changes"
+  }
+}

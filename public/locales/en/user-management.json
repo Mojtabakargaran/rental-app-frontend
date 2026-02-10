@@ -1,0 +1,239 @@
+{
+  "pageTitle": "Create New User",
+  "pageDescription": "Add a new team member to your organization",
+  "listPageTitle": "User Management",
+  "listPageDescription": "Manage your organization's team members",
+  "form": {
+    "title": "User Information",
+    "fields": {
+      "fullName": {
+        "label": "Full Name",
+        "placeholder": "Enter full name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter email address"
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "Enter phone number (optional)"
+      },
+      "role": {
+        "label": "Role",
+        "placeholder": "Select a role"
+      }
+    },
+    "buttons": {
+      "submit": "Create User",
+      "submitting": "Creating...",
+      "cancel": "Cancel"
+    }
+  },
+  "list": {
+    "createButton": "Create New User",
+    "searchPlaceholder": "Search by name or email...",
+    "filters": {
+      "status": {
+        "label": "Status",
+        "all": "All Status",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "role": {
+        "label": "Role",
+        "all": "All Roles"
+      },
+      "clearAll": "Clear Filters"
+    },
+    "table": {
+      "columns": {
+        "user": "User",
+        "contact": "Contact",
+        "role": "Role",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "actions": {
+        "viewDetails": "View Details",
+        "edit": "Edit",
+        "changeRole": "Change Role",
+        "deactivate": "Deactivate",
+        "activate": "Activate"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "verified": "Verified",
+        "notVerified": "Not Verified"
+      }
+    },
+    "pagination": {
+      "showing": "Showing {from} to {to} of {total} users",
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {page}"
+    },
+    "emptyState": {
+      "noUsers": "No team members yet",
+      "noUsersDescription": "Get started by adding your first team member",
+      "noResults": "No users found",
+      "noResultsDescription": "No users match your search criteria. Try adjusting your filters"
+    },
+    "loading": "Loading users...",
+    "searchResults": "Showing {count} results for \"{query}\""
+  },
+  "details": {
+    "title": "User Details",
+    "sections": {
+      "profile": "Profile Information",
+      "account": "Account Information"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phoneNumber": "Phone Number",
+      "role": "Role",
+      "language": "Language Preference",
+      "status": "Account Status",
+      "emailVerified": "Email Verified",
+      "createdAt": "Created",
+      "updatedAt": "Last Updated",
+      "passwordChangedAt": "Password Changed"
+    },
+    "actions": {
+      "edit": "Edit Profile",
+      "changeRole": "Change Role",
+      "deactivate": "Deactivate User",
+      "activate": "Activate User",
+      "close": "Close"
+    },
+    "placeholders": {
+      "notProvided": "Not provided",
+      "never": "Never"
+    }
+  },
+  "roleUpdate": {
+    "dialogTitle": "Change User Role",
+    "dialogDescription": "Select a new role for {name}. Changes take effect immediately.",
+    "currentRole": "Current Role",
+    "newRole": "New Role",
+    "selectRole": "Select a role",
+    "buttons": {
+      "save": "Save Changes",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "restrictions": {
+      "cannotModifyOwn": "You cannot modify your own role",
+      "cannotModifyOwner": "Company owner roles cannot be modified"
+    }
+  },
+  "profileEdit": {
+    "dialogTitle": "Edit User Profile",
+    "dialogDescription": "Update profile information for {name}. Changes are saved immediately.",
+    "emailChangeWarning": "Changing the email address will require the user to verify the new email. The account will remain active during verification.",
+    "buttons": {
+      "save": "Save Changes",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "cancel": {
+      "confirmTitle": "Discard Changes",
+      "confirmMessage": "Are you sure you want to discard your changes? All modifications will be lost.",
+      "confirmButton": "Yes, Discard",
+      "keepEditingButton": "Keep Editing"
+    }
+  },
+  "deactivation": {
+    "dialogTitle": "Deactivate User Account",
+    "dialogDescription": "Are you sure you want to deactivate {name}'s account?",
+    "warningMessage": "This will immediately revoke system access. All data will be preserved and the account can be reactivated later.",
+    "reasonLabel": "Reason for Deactivation (Optional)",
+    "reasonPlaceholder": "Enter a reason for this deactivation...",
+    "buttons": {
+      "confirm": "Confirm Deactivation",
+      "deactivating": "Deactivating...",
+      "cancel": "Cancel"
+    }
+  },
+  "reactivation": {
+    "dialogTitle": "Reactivate User Account",
+    "dialogDescription": "Reactivate {name}'s account?",
+    "infoMessage": "This will restore system access. The user can log in immediately with existing credentials.",
+    "buttons": {
+      "confirm": "Confirm Reactivation",
+      "reactivating": "Reactivating...",
+      "cancel": "Cancel"
+    }
+  },
+  "validation": {
+    "fullNameRequired": "Full name is required",
+    "fullNameMinLength": "Full name must be at least 2 characters",
+    "fullNameMaxLength": "Full name must not exceed 100 characters",
+    "emailRequired": "Email address is required",
+    "invalidEmail": "Please enter a valid email address",
+    "emailMaxLength": "Email address must not exceed 255 characters",
+    "invalidPhone": "Please enter a valid phone number",
+    "roleRequired": "Please select a role",
+    "requiredFields": "Please fill in all required fields"
+  },
+  "errors": {
+    "VALIDATION_ERROR": "Please correct the errors in the form",
+    "EMAIL_ALREADY_EXISTS": "This email address is already registered. Please use a different email address",
+    "INVALID_EMAIL_FORMAT": "Please enter a valid email address",
+    "INVALID_PHONE_FORMAT": "Please enter a valid phone number",
+    "REQUIRED_FIELD_MISSING": "Please fill in all required fields",
+    "ROLE_NOT_FOUND": "Selected role is invalid. Please choose another role",
+    "INVALID_FULL_NAME": "Please enter a valid full name",
+    "INVALID_PAGE_NUMBER": "Invalid page number",
+    "INVALID_LIMIT": "Invalid items per page",
+    "INVALID_STATUS_FILTER": "Invalid status filter",
+    "SEARCH_TOO_SHORT": "Search query must be at least 2 characters",
+    "INVALID_USER_ID": "Invalid user ID",
+    "ROLE_CODE_REQUIRED": "Please select a role",
+    "INVALID_ROLE_CODE": "Selected role is invalid. Please choose another role",
+    "NO_CHANGES": "No changes were made to the profile",
+    "FULL_NAME_REQUIRED": "Full name is required",
+    "EMAIL_REQUIRED": "Email address is required",
+    "DATABASE_ERROR": "A database error occurred. Please try again later.",
+    "SESSION_EXPIRED": "Your session has expired. Please log in again",
+    "UNAUTHORIZED": "You are not authorized to perform this action",
+    "CSRF_TOKEN_INVALID": "Security token is invalid. Please refresh and try again",
+    "INSUFFICIENT_PERMISSIONS": "You do not have permission to perform this action",
+    "CROSS_TENANT_ACCESS": "Access denied: User belongs to a different organization",
+    "SELF_ROLE_MODIFICATION": "You cannot modify your own role",
+    "OWNER_ROLE_PROTECTED": "Company owner roles cannot be modified",
+    "USER_ALREADY_DEACTIVATED": "This account is already deactivated",
+    "CANNOT_DEACTIVATE_SELF": "You cannot deactivate your own account. Please contact another administrator if you need to deactivate your account",
+    "CANNOT_DEACTIVATE_LAST_OWNER": "Cannot deactivate the only remaining active company owner. At least one active owner must remain",
+    "USER_ALREADY_ACTIVE": "This account is already active",
+    "USER_CREATION_FAILED": "Failed to create user. Please try again",
+    "ROLE_UPDATE_FAILED": "Failed to update user role. Please try again",
+    "PROFILE_UPDATE_FAILED": "Failed to update user profile. Please try again",
+    "USER_DEACTIVATION_FAILED": "Failed to deactivate user account. Please try again",
+    "USER_REACTIVATION_FAILED": "Failed to reactivate user account. Please try again",
+    "ROLES_RETRIEVAL_FAILED": "Failed to load roles. Please refresh the page",
+    "USERS_RETRIEVAL_FAILED": "Unable to load users at this time. Please try again",
+    "USER_DETAILS_RETRIEVAL_FAILED": "Failed to load user details. Please try again",
+    "USER_NOT_FOUND": "User not found",
+    "RATE_LIMIT_EXCEEDED": "You have exceeded the maximum number of requests. Please try again later",
+    "SERVICE_UNAVAILABLE": "Service is currently unavailable. Please try again later",
+    "GENERIC_ERROR": "An unexpected error occurred. Please try again"
+  },
+  "success": {
+    "userCreated": "User {name} created successfully. Welcome email sent to {email}",
+    "roleUpdated": "Role updated successfully for {name}. Changes take effect immediately",
+    "profileUpdated": "Profile updated successfully for {name}",
+    "userDeactivated": "{name}'s account has been deactivated successfully",
+    "userReactivated": "{name}'s account has been reactivated successfully"
+  },
+  "user": {
+    "created": "User created successfully. Welcome email has been sent."
+  },
+  "cancel": {
+    "confirmTitle": "Cancel User Creation",
+    "confirmMessage": "Are you sure you want to cancel? All entered information will be lost",
+    "confirmButton": "Yes, Cancel",
+    "keepEditingButton": "Keep Editing"
+  }
+}

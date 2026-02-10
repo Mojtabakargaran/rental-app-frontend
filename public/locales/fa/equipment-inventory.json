@@ -1,0 +1,487 @@
+{
+  "viewEquipment": {
+    "pageTitle": "جزئیات تجهیزات",
+    "appName": "سیستم مدیریت اجاره",
+    "pageDescription": "مشاهده اطلاعات دقیق درباره آیتم تجهیزات"
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "نام تجهیزات",
+        "placeholder": "نام تجهیزات را وارد کنید"
+      },
+      "category": {
+        "label": "دسته‌بندی تجهیزات",
+        "placeholder": "دسته‌بندی را انتخاب کنید",
+        "loading": "در حال بارگذاری دسته‌بندی‌ها...",
+        "noCategories": "هیچ دسته‌بندی‌ای موجود نیست. لطفاً ابتدا یک دسته‌بندی ایجاد کنید."
+      },
+      "description": {
+        "label": "توضیحات",
+        "placeholder": "توضیحات تجهیزات را وارد کنید (اختیاری)"
+      },
+      "manufacturer": {
+        "label": "سازنده",
+        "placeholder": "نام سازنده را وارد کنید (اختیاری)"
+      },
+      "model": {
+        "label": "مدل/شماره مدل",
+        "placeholder": "شماره مدل را وارد کنید (اختیاری)"
+      },
+      "serialNumber": {
+        "label": "شماره سریال",
+        "placeholder": "شماره سریال را وارد کنید (اختیاری)"
+      },
+      "yearOfManufacture": {
+        "label": "سال ساخت",
+        "placeholder": "سال را وارد کنید (اختیاری)"
+      },
+      "purchasePrice": {
+        "label": "قیمت خرید",
+        "placeholder": "قیمت را وارد کنید (اختیاری)"
+      },
+      "purchaseDate": {
+        "label": "تاریخ خرید",
+        "placeholder": "تاریخ را انتخاب کنید (اختیاری)"
+      },
+      "status": {
+        "label": "وضعیت",
+        "placeholder": "وضعیت را انتخاب کنید",
+        "options": {
+          "Available": "موجود",
+          "Rented": "اجاره داده شده",
+          "Maintenance": "در تعمیر",
+          "Out of Service": "خارج از سرویس"
+        }
+      }
+    },
+    "customAttributes": {
+      "title": "ویژگی‌های سفارشی",
+      "addButton": "افزودن ویژگی",
+      "keyPlaceholder": "نام ویژگی",
+      "valuePlaceholder": "مقدار ویژگی",
+      "unitPlaceholder": "واحد (اختیاری)",
+      "remove": "حذف",
+      "empty": "هنوز ویژگی سفارشی اضافه نشده است"
+    },
+    "buttons": {
+      "submit": "افزودن تجهیزات",
+      "cancel": "انصراف",
+      "submitting": "در حال افزودن...",
+      "update": "به‌روزرسانی تجهیزات"
+    },
+    "charactersRemaining": "کاراکتر"
+  },
+  "cancelDialog": {
+    "title": "لغو تغییرات؟",
+    "description": "شما تغییرات ذخیره نشده‌ای دارید. آیا مطمئن هستید که می‌خواهید آن‌ها را لغو کنید؟",
+    "back": "ادامه ویرایش",
+    "confirm": "لغو تغییرات"
+  },
+  "createEquipment": {
+    "title": "افزودن تجهیزات به موجودی",
+    "subtitle": "ثبت یک قلم تجهیزات جدید برای کسب و کار اجاره‌دهی شما",
+    "form": {
+      "sections": {
+        "basic": {
+          "title": "اطلاعات پایه",
+          "description": "جزئیات ضروری درباره تجهیزات"
+        },
+        "specifications": {
+          "title": "مشخصات فنی",
+          "description": "جزئیات فنی و سازنده"
+        },
+        "financial": {
+          "title": "اطلاعات مالی",
+          "description": "اطلاعات خرید"
+        },
+        "status": {
+          "title": "وضعیت",
+          "description": "دسترسی فعلی تجهیزات"
+        },
+        "custom": {
+          "title": "ویژگی‌های سفارشی",
+          "description": "اطلاعات اضافی مختص تجهیزات"
+        }
+      },
+      "fields": {
+        "name": {
+          "label": "نام تجهیزات",
+          "placeholder": "نام تجهیزات را وارد کنید"
+        },
+        "category": {
+          "label": "دسته‌بندی تجهیزات",
+          "placeholder": "دسته‌بندی را انتخاب کنید",
+          "loading": "در حال بارگذاری دسته‌بندی‌ها...",
+          "noCategories": "هیچ دسته‌بندی‌ای موجود نیست. لطفاً ابتدا یک دسته‌بندی ایجاد کنید."
+        },
+        "description": {
+          "label": "توضیحات",
+          "placeholder": "توضیحات تجهیزات را وارد کنید (اختیاری)"
+        },
+        "manufacturer": {
+          "label": "سازنده",
+          "placeholder": "نام سازنده را وارد کنید (اختیاری)"
+        },
+        "model": {
+          "label": "مدل/شماره مدل",
+          "placeholder": "شماره مدل را وارد کنید (اختیاری)"
+        },
+        "serialNumber": {
+          "label": "شماره سریال",
+          "placeholder": "شماره سریال را وارد کنید (اختیاری)"
+        },
+        "yearOfManufacture": {
+          "label": "سال ساخت",
+          "placeholder": "سال را وارد کنید (اختیاری)"
+        },
+        "purchasePrice": {
+          "label": "قیمت خرید",
+          "placeholder": "قیمت را وارد کنید (اختیاری)"
+        },
+        "purchaseDate": {
+          "label": "تاریخ خرید",
+          "placeholder": "تاریخ را انتخاب کنید (اختیاری)"
+        },
+        "status": {
+          "label": "وضعیت",
+          "options": {
+            "Available": "موجود",
+            "Rented": "اجاره داده شده",
+            "Maintenance": "در تعمیر",
+            "Out of Service": "خارج از سرویس"
+          }
+        },
+        "customAttributes": {
+          "addButton": "افزودن ویژگی",
+          "keyPlaceholder": "نام ویژگی",
+          "valuePlaceholder": "مقدار ویژگی",
+          "unitPlaceholder": "واحد (اختیاری)",
+          "remove": "حذف",
+          "empty": "هنوز ویژگی سفارشی اضافه نشده است"
+        }
+      },
+      "buttons": {
+        "submit": "افزودن تجهیزات",
+        "cancel": "انصراف",
+        "submitting": "در حال افزودن...",
+        "update": "به‌روزرسانی تجهیزات"
+      },
+      "helpers": {
+        "nameHelp": "حداکثر ۲۰۰ کاراکتر",
+        "descriptionHelp": "حداکثر ۲۰۰۰ کاراکتر",
+        "manufacturerHelp": "حداکثر ۱۰۰ کاراکتر",
+        "modelHelp": "حداکثر ۱۰۰ کاراکتر",
+        "serialNumberHelp": "باید در سطح شرکت شما منحصر به فرد باشد. حداکثر ۱۰۰ کاراکتر",
+        "yearHelp": "باید بین ۱۹۰۰ و سال جاری باشد",
+        "purchaseDateHelp": "نمی‌تواند در آینده باشد"
+      }
+    },
+    "cancelDialog": {
+      "title": "لغو تغییرات؟",
+      "description": "شما تغییرات ذخیره نشده‌ای دارید. آیا مطمئن هستید که می‌خواهید آن‌ها را لغو کنید؟",
+      "back": "ادامه ویرایش",
+      "confirm": "لغو تغییرات"
+    },
+    "validation": {
+      "nameLength": "نام تجهیزات باید بین ۱ تا ۲۰۰ کاراکتر باشد",
+      "categoryInvalid": "دسته‌بندی انتخاب شده نامعتبر است",
+      "descriptionLength": "توضیحات نباید بیش از ۲۰۰۰ کاراکتر باشد",
+      "manufacturerLength": "نام سازنده نباید بیش از ۱۰۰ کاراکتر باشد",
+      "modelLength": "مدل نباید بیش از ۱۰۰ کاراکتر باشد",
+      "serialNumberLength": "شماره سریال نباید بیش از ۱۰۰ کاراکتر باشد",
+      "serialNumberExists": "این شماره سریال قبلاً به تجهیزات دیگری اختصاص داده شده است",
+      "purchasePriceInvalid": "قیمت خرید باید یک عدد مثبت باشد",
+      "purchaseDateFuture": "تاریخ خرید نمی‌تواند در آینده باشد",
+      "customAttributeKeyLength": "نام ویژگی نباید بیش از ۱۰۰ کاراکتر باشد",
+      "customAttributeValueLength": "مقدار ویژگی نباید بیش از ۵۰۰ کاراکتر باشد",
+      "customAttributeUnitLength": "واحد نباید بیش از ۵۰ کاراکتر باشد",
+      "categoryNotFound": "دسته‌بندی انتخاب شده یافت نشد",
+      "categoryInactive": "دسته‌بندی انتخاب شده دیگر فعال نیست. لطفاً دسته‌بندی دیگری را انتخاب کنید.",
+      "reasonTooLong": "دلیل نباید بیش از ۵۰۰ کاراکتر باشد",
+      "archived": "این تجهیزات بایگانی شده و قابل ویرایش نیست",
+      "alreadyArchived": "تجهیزات قبلاً بایگانی شده است",
+      "invalidEquipmentId": "شناسه تجهیزات نامعتبر است",
+      "equipmentNotFound": "تجهیزات یافت نشد",
+      "databaseError": "خطای پایگاه داده رخ داد. لطفاً دوباره تلاش کنید.",
+      "reasonMaxLength": "دلیل نباید بیش از ۵۰۰ کاراکتر باشد",
+      "confirmationRequired": "تأیید الزامی است",
+      "confirmationInvalid": "نام تجهیزات وارد شده مطابقت ندارد",
+      "customAttributeKeyRequired": "نام ویژگی الزامی است",
+      "customAttributeKeyTooLong": "نام ویژگی نباید بیش از ۱۰۰ کاراکتر باشد",
+      "customAttributeValueRequired": "مقدار ویژگی الزامی است",
+      "customAttributeValueTooLong": "مقدار ویژگی نباید بیش از ۵۰۰ کاراکتر باشد",
+      "customAttributeUnitTooLong": "واحد نباید بیش از ۵۰ کاراکتر باشد",
+      "nameRequired": "نام تجهیزات الزامی است",
+      "nameTooLong": "نام تجهیزات نباید بیش از ۲۰۰ کاراکتر باشد",
+      "invalidCategoryId": "دسته‌بندی انتخاب شده نامعتبر است",
+      "categoryRequired": "دسته‌بندی تجهیزات الزامی است",
+      "descriptionTooLong": "توضیحات نباید بیش از ۲۰۰۰ کاراکتر باشد",
+      "manufacturerTooLong": "نام سازنده نباید بیش از ۱۰۰ کاراکتر باشد",
+      "modelTooLong": "مدل نباید بیش از ۱۰۰ کاراکتر باشد",
+      "serialNumberTooLong": "شماره سریال نباید بیش از ۱۰۰ کاراکتر باشد",
+      "yearInvalid": "سال باید بین ۱۹۰۰ و سال جاری باشد",
+      "yearTooOld": "سال باید ۱۹۰۰ یا بعد از آن باشد",
+      "yearInFuture": "سال نمی‌تواند در آینده باشد",
+      "priceInvalid": "قیمت باید یک عدد معتبر باشد",
+      "priceNegative": "قیمت باید یک عدد مثبت باشد",
+      "dateInvalid": "تاریخ باید در فرمت معتبر باشد",
+      "dateInFuture": "تاریخ نمی‌تواند در آینده باشد",
+      "statusRequired": "وضعیت الزامی است",
+      "statusInvalid": "مقدار وضعیت نامعتبر است",
+      "VALIDATION_ERROR": "لطفاً فرم را برای خطاها بررسی کنید",
+      "VALIDATION_FAILED": "لطفاً فرم را برای خطاها بررسی کنید",
+      "INVALID_EQUIPMENT_ID": "شناسه تجهیزات نامعتبر است",
+      "EQUIPMENT_NOT_FOUND": "تجهیزات یافت نشد",
+      "EQUIPMENT_ARCHIVED": "این تجهیزات بایگانی شده و قابل ویرایش نیست",
+      "FORBIDDEN": "شما اجازه ویرایش این تجهیزات را ندارید",
+      "EQUIPMENT_ALREADY_ARCHIVED": "تجهیزات قبلاً بایگانی شده است",
+      "DATABASE_ERROR": "خطای پایگاه داده رخ داد. لطفاً دوباره تلاش کنید.",
+      "INTERNAL_SERVER_ERROR": "خطای داخلی سرور رخ داد. لطفاً دوباره تلاش کنید.",
+      "SESSION_EXPIRED": "نشست شما منقضی شده است. لطفاً دوباره وارد شوید.",
+      "UNAUTHORIZED": "شما مجاز به انجام این عملیات نیستید",
+      "INSUFFICIENT_PERMISSIONS": "شما اجازه انجام این عملیات را ندارید",
+      "EQUIPMENT_CREATION_FAILED": "ایجاد تجهیزات ناموفق بود. لطفاً دوباره تلاش کنید.",
+      "SERIAL_NUMBER_EXISTS": "این شماره سریال قبلاً به تجهیزات دیگری اختصاص داده شده است",
+      "STATUS_INVALID": "مقدار وضعیت انتخاب شده نامعتبر است",
+      "INVALID_PAGINATION": "پارامترهای صفحه‌بندی نامعتبر است",
+      "INVALID_SORT_FIELD": "فیلد مرتب‌سازی انتخاب شده نامعتبر است",
+      "INVALID_FILTER_VALUES": "مقادیر فیلتر ارائه شده نامعتبر است"
+    },
+    "success": {
+      "created": "تجهیزات با موفقیت افزوده شد",
+      "redirecting": "در حال انتقال..."
+    },
+    "errors": {
+      "loadCategoriesFailed": "بارگذاری دسته‌بندی‌ها ناموفق بود"
+    }
+  },
+  "list": {
+    "title": "موجودی تجهیزات",
+    "subtitle": "مشاهده و مدیریت تجهیزات اجاره‌ای خود",
+    "addButton": "افزودن تجهیزات",
+    "search": {
+      "placeholder": "جستجوی تجهیزات..."
+    },
+    "filters": {
+      "status": {
+        "label": "وضعیت",
+        "all": "همه وضعیت‌ها",
+        "Available": "موجود",
+        "Rented": "اجاره داده شده",
+        "Maintenance": "در تعمیر",
+        "Out of Service": "خارج از سرویس"
+      },
+      "category": {
+        "label": "دسته‌بندی",
+        "all": "همه دسته‌بندی‌ها",
+        "loading": "در حال بارگذاری..."
+      },
+      "manufacturer": {
+        "label": "سازنده",
+        "placeholder": "فیلتر بر اساس سازنده"
+      },
+      "dateRange": {
+        "purchaseDate": "تاریخ خرید",
+        "createdDate": "تاریخ ایجاد",
+        "from": "از",
+        "to": "تا"
+      },
+      "clearAll": "پاک کردن فیلترها",
+      "activeFilters": "فیلترهای فعال"
+    },
+    "sort": {
+      "label": "مرتب‌سازی بر اساس",
+      "name": "نام",
+      "status": "وضعیت",
+      "createdAt": "تاریخ افزوده شدن",
+      "purchaseDate": "تاریخ خرید",
+      "order": {
+        "asc": "صعودی",
+        "desc": "نزولی"
+      }
+    },
+    "table": {
+      "columns": {
+        "name": "نام تجهیزات",
+        "category": "دسته‌بندی",
+        "serialNumber": "شماره سریال",
+        "status": "وضعیت",
+        "manufacturer": "سازنده",
+        "model": "مدل",
+        "purchaseDate": "تاریخ خرید",
+        "createdAt": "تاریخ افزوده شدن",
+        "actions": "عملیات"
+      },
+      "actions": {
+        "edit": "ویرایش",
+        "archive": "بایگانی",
+        "delete": "حذف"
+      },
+      "noSerialNumber": "ندارد"
+    },
+    "pagination": {
+      "showing": "نمایش {from} تا {to} از {total} تجهیزات",
+      "previous": "قبلی",
+      "next": "بعدی",
+      "page": "صفحه {page} از {total}",
+      "itemsPerPage": "تعداد در هر صفحه"
+    },
+    "empty": {
+      "title": "هیچ تجهیزاتی یافت نشد",
+      "description": "با افزودن اولین تجهیزات خود به موجودی اجاره شروع کنید.",
+      "createFirst": "افزودن اولین تجهیزات"
+    },
+    "noResults": {
+      "title": "هیچ تجهیزاتی با معیارهای شما مطابقت ندارد",
+      "description": "عبارات جستجو یا فیلترهای مختلفی را امتحان کنید تا آنچه را که می‌خواهید پیدا کنید.",
+      "clearFilters": "پاک کردن همه فیلترها"
+    },
+    "loading": "در حال بارگذاری تجهیزات...",
+    "error": "بارگذاری تجهیزات با خطا مواجه شد"
+  },
+  "details": {
+    "title": "جزئیات تجهیزات",
+    "backToList": "بازگشت به لیست تجهیزات",
+    "sections": {
+      "basic": "اطلاعات پایه",
+      "specifications": "مشخصات فنی",
+      "financial": "اطلاعات مالی",
+      "status": "وضعیت",
+      "customAttributes": "ویژگی‌های سفارشی",
+      "metadata": "اطلاعات ممیزی"
+    },
+    "fields": {
+      "name": "نام تجهیزات",
+      "category": "دسته‌بندی",
+      "description": "توضیحات",
+      "manufacturer": "سازنده",
+      "model": "مدل/شماره مدل",
+      "serialNumber": "شماره سریال",
+      "yearOfManufacture": "سال ساخت",
+      "purchasePrice": "قیمت خرید",
+      "purchaseDate": "تاریخ خرید",
+      "status": "وضعیت",
+      "createdBy": "ایجادشده توسط",
+      "createdAt": "تاریخ ایجاد",
+      "updatedBy": "آخرین ویرایش توسط",
+      "updatedAt": "تاریخ آخرین ویرایش",
+      "deletedAt": "تاریخ بایگانی"
+    },
+    "values": {
+      "notSpecified": "مشخص نشده",
+      "noDescription": "توضیحاتی ارائه نشده است",
+      "noCustomAttributes": "ویژگی سفارشی تعریف نشده است"
+    },
+    "customAttributesTable": {
+      "columns": {
+        "name": "نام ویژگی",
+        "value": "مقدار",
+        "unit": "واحد"
+      },
+      "noUnit": "-"
+    },
+    "badges": {
+      "archived": "بایگانی شده",
+      "categoryInactive": "(غیرفعال)",
+      "categoryDeleted": "(حذف شده)"
+    },
+    "actions": {
+      "actions": "عملیات",
+      "edit": "ویرایش تجهیزات",
+      "delete": "حذف تجهیزات",
+      "backToList": "بازگشت به لیست",
+      "changeStatus": "تغییر وضعیت",
+      "archiveEquipment": "بایگانی تجهیزات",
+      "deleteEquipment": "حذف تجهیزات"
+    },
+    "backToDetails": "بازگشت به جزئیات",
+    "loading": "در حال بارگذاری جزئیات تجهیزات...",
+    "errors": {
+      "notFound": "تجهیزات یافت نشد یا شما دسترسی مشاهده آن را ندارید",
+      "loadFailed": "بارگذاری جزئیات تجهیزات با خطا مواجه شد",
+      "invalidId": "شناسه تجهیزات نامعتبر است"
+    }
+  },
+  "edit": {
+    "title": "ویرایش اطلاعات تجهیزات",
+    "subtitle": "به‌روزرسانی جزئیات و مشخصات تجهیزات",
+    "basicInfo": "اطلاعات پایه",
+    "equipmentDetails": "جزئیات تجهیزات",
+    "cancelDialog": {
+      "title": "لغو تغییرات؟",
+      "message": "شما تغییرات ذخیره نشده‌ای دارید. آیا مطمئن هستید که می‌خواهید آن‌ها را لغو کنید؟",
+      "keepEditing": "ادامه ویرایش",
+      "discardChanges": "لغو تغییرات"
+    }
+  },
+  "status": {
+    "available": "در دسترس",
+    "rented": "اجاره داده شده",
+    "maintenance": "در تعمیرات",
+    "outOfService": "خارج از سرویس"
+  },
+  "statusUpdate": {
+    "title": "تغییر وضعیت تجهیزات",
+    "currentStatus": "وضعیت فعلی",
+    "newStatus": "وضعیت جدید",
+    "reason": "دلیل (اختیاری)",
+    "reasonPlaceholder": "دلیل تغییر وضعیت را وارد کنید...",
+    "reasonHelp": "حداکثر ۵۰۰ کاراکتر",
+    "confirmButton": "به‌روزرسانی وضعیت",
+    "cancelButton": "لغو",
+    "success": "وضعیت تجهیزات به {{status}} تغییر یافت",
+    "unchanged": "وضعیت تجهیزات قبلاً به {{status}} تنظیم شده است"
+  },
+  "archive": {
+    "soft": {
+      "title": "بایگانی تجهیزات؟",
+      "description": "آیا مطمئن هستید که می‌خواهید این تجهیزات را بایگانی کنید؟",
+      "warning": "این عملیات تجهیزات را از عملیات فعال حذف می‌کند در حالی که داده‌ها برای اهداف ممیزی حفظ می‌شود.",
+      "equipmentLabel": "نام تجهیزات",
+      "reason": "دلیل (اختیاری)",
+      "reasonPlaceholder": "دلیل بایگانی را وارد کنید...",
+      "confirmButton": "بایگانی تجهیزات",
+      "cancelButton": "لغو",
+      "success": "تجهیزات با موفقیت بایگانی شد"
+    },
+    "permanent": {
+      "title": "حذف دائمی تجهیزات؟",
+      "description": "آیا مطمئن هستید که می‌خواهید این تجهیزات را به طور دائم حذف کنید؟",
+      "warning": "این عمل قابل بازگشت نیست. تجهیزات به طور دائم از سیستم حذف خواهد شد.",
+      "equipmentLabel": "نام تجهیزات",
+      "confirmation": "برای تأیید DELETE را تایپ کنید",
+      "confirmationPlaceholder": "DELETE را اینجا تایپ کنید",
+      "confirmButton": "حذف دائمی",
+      "cancelButton": "لغو",
+      "success": "تجهیزات با موفقیت حذف شد"
+    },
+    "equipment": {
+      "delete": {
+        "title": "حذف دائم تجهیزات؟",
+        "description": "آیا مطمئن هستید که می‌خواهید این تجهیزات را به طور دائم حذف کنید؟",
+        "warning": "این عملیات قابل بازگشت نیست. تجهیزات به طور دائم از سیستم حذف خواهد شد.",
+        "confirmButton": "حذف دائم",
+        "cancelButton": "لغو",
+        "success": "تجهیزات با موفقیت حذف شد"
+      },
+      "softDelete": {
+        "title": "بایگانی تجهیزات؟",
+        "description": "آیا مطمئن هستید که می‌خواهید این تجهیزات را بایگانی کنید؟",
+        "warning": "این عملیات تجهیزات را از عملیات فعال حذف می‌کند و داده‌ها را برای اهداف ممیزی حفظ می‌کند.",
+        "reasonLabel": "دلیل (اختیاری)",
+        "reasonPlaceholder": "دلیل بایگانی را وارد کنید...",
+        "confirmButton": "بایگانی تجهیزات",
+        "cancelButton": "لغو",
+        "success": "تجهیزات با موفقیت بایگانی شد"
+      },
+      "restore": {
+        "title": "بازیابی تجهیزات؟",
+        "description": "آیا مطمئن هستید که می‌خواهید این تجهیزات را بازیابی کنید؟",
+        "confirmButton": "بازیابی تجهیزات",
+        "cancelButton": "لغو",
+        "success": "تجهیزات با موفقیت بازیابی شد"
+      }
+    }
+  }
+}

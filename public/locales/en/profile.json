@@ -1,0 +1,42 @@
+{
+  "menu": {
+    "title": "Profile Menu",
+    "role": "Company Owner",
+    "languageLabel": "Language",
+    "logout": "Logout"
+  },
+  "language": {
+    "en": "English",
+    "fa": "Persian",
+    "current": "Current language"
+  },
+  "logout": {
+    "success": "You have been logged out successfully",
+    "cleanupFailed": "Logged out (some data may need manual cleanup)",
+    "loggingOut": "Logging out...",
+    "confirmUnsaved": "You have unsaved changes. Are you sure you want to log out?",
+    "confirmButton": "Yes, log out",
+    "cancelButton": "Cancel",
+    "sessionExpired": "Your session has expired for security reasons. Please log in again.",
+    "sessionExpiredTitle": "Session Expired",
+    "sessionExpiredOk": "OK",
+    "multiTabLogout": "You have been logged out from another window"
+  },
+  "success": {
+    "languageUpdated": "Language updated successfully"
+  },
+  "errors": {
+    "INVALID_LANGUAGE": "Invalid language selection. Please choose English or Persian.",
+    "LANGUAGE_REQUIRED": "Language preference is required.",
+    "SESSION_EXPIRED": "Your session has expired. Please log in again.",
+    "UNAUTHORIZED": "You are not authorized. Please log in.",
+    "ACCOUNT_INACTIVE": "Your account is inactive. Please contact support.",
+    "USER_NOT_FOUND": "User profile not found. Please log in again.",
+    "LANGUAGE_UPDATE_FAILED": "Failed to save language preference. Please try again.",
+    "SERVICE_UNAVAILABLE": "Service temporarily unavailable. Please try again later.",
+    "updateFailed": "Unable to save language preference. Will retry automatically.",
+    "network": "Network error. Please check your connection.",
+    "SESSION_NOT_FOUND": "Session already expired",
+    "LOGOUT_FAILED": "Logout failed. Proceeding with local cleanup."
+  }
+}
